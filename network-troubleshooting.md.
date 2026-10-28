@@ -1,0 +1,25 @@
+# Network Troubleshooting Basics
+
+## 1. Ping
+Ping tests reachability using ICMP Echo messages and reports response times when replies are received. A missing reply does not always mean the destination is offline.
+
+## 2. Traceroute
+Traceroute helps identify the network hops toward a destination. Some routers may not respond to its probes, so missing hops do not necessarily indicate a fault.
+
+## 3. Nslookup
+Nslookup queries DNS records and can help troubleshoot name-resolution problems.
+
+## Example Troubleshooting Workflow
+1. Check whether the device is connected to the network.
+2. Test reachability to an appropriate known destination.
+3. Check DNS resolution with nslookup where a command-line environment is available.
+4. Compare results and record observations before drawing conclusions.
+
+## Practice Log
+- Environment: To be recorded during a future practical exercise.
+- Commands tested: To be completed.
+- Observed results: To be completed.
+- Conclusion: To be completed based on actual results.
+
+## Safety
+Only test devices and networks you own or are authorized to assess.
